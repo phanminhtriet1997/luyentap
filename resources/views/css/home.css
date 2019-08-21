@@ -1,0 +1,42 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	.content{
+		width: 500px;
+		text-align: center;
+	}
+	body{
+		margin:10 auto;
+
+	}
+	.content legend{
+		color:#550469;
+		font-size: 22px;
+		font-weight: bold;
+		font-style: italic;
+		text-align: left;
+	}
+	.veBox{
+		margin: auto;
+		text-align: center;
+		border: 10px ridge #376544;
+	}
+	.widthForInputTag{
+		width: 150px;
+		height: 15px;
+	}
+	.widthForInputSubmit{
+		width: 100px;
+		background: #4B99AD;
+		padding: 8px 15px 8px 15px;
+		border: none;
+		color: #fff;
+		margin-left: 25px;
+	}
+	.widthForInputSubmit:hover{
+		background: #550469;
+		box-shadow:none;
+		-moz-box-shadow:none;
+		-webkit-box-shadow:none;
+	}

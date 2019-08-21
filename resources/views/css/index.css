@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+	color: #FFF;
+}
+header{
+	width: 960px;
+	height: 200px;
+	margin: 0px	auto;
+	background:url(../images/header.jpg);
+}
+nav{
+	width: 960px;
+	margin: auto;
+}
+footer{
+	width: 960px;
+	height: 100px;
+	margin: 0px auto;
+	background:#2c3e50;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+}
+body{
+	background: #DADCDE;
+}
+.content{
+	width: 960px;
+	background: #bdc3c7;
+	margin: 0px auto;
+}
+.sub_content{
+	padding: 1px 10px;
+}
+.menu{
+	background: #2c3e50;
+	height: 44px;
+}
+.menu > ul > li{
+	float: left;
+	position: relative;
+	border-right: double #FFF;
+	padding: 11px 66px;
+}
+.menu > ul > li:last-child{
+	border-right: none;
+}
+.menu ul li:hover{
+	background: #2c3e50;
+	transition: all 0.5s;
+}
+.menu > ul > li >ul{
+	display: none;
+	position: absolute;
+	background: #343434;
+	top: 45px;
+	width: 195px;
+	left: 0px;
+}
+.menu > ul > li:hover >ul{
+	display: block;
+}
+
+.menu >ul>li>ul>li{
+	padding: 15px 10px;
+	border-bottom: 1px dotted #FFF;
+}
+.menu >ul>li>ul>li:last-child{
+	border-bottom:none;
+}
+#goTop {
+		bottom: 10px;
+		cursor: pointer;
+		display: none;
+		position: fixed;
+		right: 10px;
+		z-index: 10;
+	}
