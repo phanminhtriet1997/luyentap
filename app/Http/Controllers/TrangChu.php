@@ -30,6 +30,6 @@ class TrangChu extends Controller
     	return view('thamso');
     }
     public function PostForm(Request $request){
-    	echo "Ten cua ban la: ".$request->name;
+    	echo "Ten cua ban laa: ".$request->name;
     }
 }
